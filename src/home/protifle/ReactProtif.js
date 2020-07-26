@@ -5,11 +5,10 @@ class ReactProtif extends React.Component {
   render(){
     const {link ,projectName , src , dic }=this.props
     return(
-      <div className="row no-gutters col-8 mx-auto"  >
+      <div className="row no-gutters col-lg-8 col-10 mx-auto mt-3"  >
         <a href = {link} className= 'd-inline col-md-4 portfolio-box' style = {{height : ' 150px'}}>
-            <img src={src} className="card-img img-fluid "
-            style = {{height : '100%' , objectFit:'cover'}}
-            alt={projectName}/>
+            <iframe src={link}  className="img-fluid img-pro card-img " style={{ overflow:'hidden' , height : '100%' , objectFit:'cover'}} scrolling="no" ></iframe>
+
             <div className="portfolio-box-caption">
                 <button className="project-name btn-light btn"
                 style = {{color : ' #dc3545'}}>see more </button>

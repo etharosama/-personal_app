@@ -5,7 +5,7 @@ class PortfolioBox extends React.Component {
   render(){
     const {src , projectName , link} = this.props
     return(
-      <div className="col-lg-4 col-12">
+      <div className="col-lg-4  col-sm-12">
         <a className="portfolio-box" href={link}>
               <iframe src={link}  className="img-fluid img-pro" style={{ overflow:'hidden'}} scrolling="no" ></iframe>
               <div className="portfolio-box-caption">
