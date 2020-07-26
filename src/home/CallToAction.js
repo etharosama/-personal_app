@@ -18,7 +18,7 @@ class CallToAction extends React.Component {
                       <i className="fas fa-phone fa-3x mb-3 text-muted"></i>
                       <div>+20 1066940870 </div>
                   </div>
-                  <div className="col-lg-4 mr-auto text-center">
+                  <div className="col-lg-4 mr-auto text-center mb-5 mb-lg-0">
                       <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
                       <a className="d-block" href="mailto:oethar4@gmail.com">
                       oethar4@gmail.com
@@ -26,7 +26,7 @@ class CallToAction extends React.Component {
                   </div>
                   <div className="col-lg-4 mr-auto text-center">
                       <i class="fab fa-github  fa-3x mb-3 text-muted" ></i>
-                    
+
                       <a className="d-block" href="https://github.com/etharosama">
                       etharosama
                       </a>
